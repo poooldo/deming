@@ -224,4 +224,15 @@ Then to populate the DB with 27001:2022
 
     sudo mysql deming < deming-27001_2022.sql
 
+# Docker setup
 
+## Requirements
+
+You need to install first :
+- docker
+- curl
+
+## Starting the environnement (docker-compose)
+
+    cd docker
+    ./boostrap.sh
